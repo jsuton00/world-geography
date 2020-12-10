@@ -1,0 +1,86 @@
+.home {
+	width: 100%;
+	height: calc(100% - 12.8vh);
+}
+
+.search-controls-section {
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 1rem 2rem;
+}
+
+.country-cards-section {
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	padding: 0.5rem 1rem 0.5rem;
+}
+
+/*media queries for search form */
+@media screen and (max-width: 319px) {
+	.search-bar-container {
+		flex-basis: 96%;
+	}
+	.filter-regions-container {
+		flex-basis: 96%;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+	.search-bar-container {
+		flex-basis: 96%;
+	}
+	.filter-regions-container {
+		flex-basis: 96%;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 639px) {
+	.search-bar-container {
+		flex-basis: 45%;
+	}
+	.filter-regions-container {
+		flex-basis: 45%;
+	}
+}
+
+/*media-queries for country cards*/
+@media screen and (max-width: 319px) {
+	.country-card {
+		flex-basis: 98%;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+	.country-card {
+		flex-basis: 96%;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.country-card {
+		flex-basis: 47%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.country-card {
+		flex-basis: 32%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.country-card {
+		flex-basis: 24%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.country-card {
+		flex-basis: 22%;
+	}
+}

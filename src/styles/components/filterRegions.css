@@ -1,0 +1,46 @@
+.filter-regions-container {
+	flex-basis: 24%;
+	width: 100%;
+	padding: 0.25rem;
+}
+
+.filter-regions-select {
+	border: 0.0625rem solid #ffffff;
+	border-radius: 0.5rem;
+	width: 100%;
+	height: 100%;
+	padding: 0.75rem 2rem;
+	box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.2);
+	font-weight: 600;
+	color: #828482;
+	text-transform: capitalize;
+}
+
+.filter-regions-select::-webkit-input-placeholder {
+	font-weight: 600;
+	color: #828482;
+	text-transform: capitalize;
+}
+
+.filter-regions-select::-webkit-input-placeholder,
+.filter-regions-select::-moz-placeholder,
+.filter-regions-select:-ms-input-placeholder,
+.filter-regions-select::-ms-input-placeholder,
+.filter-regions-select::placeholder {
+	font-weight: 600;
+	color: #828482;
+	text-transform: capitalize;
+}
+
+.filter-regions-select:focus,
+.filter-regions-select:active {
+	text-transform: capitalize;
+}
+
+.filter-regions-option {
+	width: 100%;
+	padding: 0.75rem;
+	font-weight: 600;
+	color: #828482;
+	text-transform: capitalize;
+}

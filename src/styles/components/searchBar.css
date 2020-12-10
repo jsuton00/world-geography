@@ -1,0 +1,42 @@
+.search-bar-container {
+	position: relative;
+	flex-basis: 32%;
+	width: 100%;
+	padding: 0.25rem;
+}
+
+.search-countries {
+	border: 0.0625rem solid #ffffff;
+	border-radius: 0.5rem;
+	width: 100%;
+	padding: 0.75rem 2.5rem;
+	box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.search-icon {
+	position: absolute;
+	width: 100%;
+	padding: 0.75rem 1rem;
+	color: #777;
+	cursor: pointer;
+}
+
+.search-countries::-webkit-input-placeholder {
+	font-weight: 600;
+}
+
+.search-countries::-moz-placeholder {
+	font-weight: 600;
+}
+
+.search-countries:-ms-input-placeholder {
+	font-weight: 600;
+}
+
+.search-countries::-ms-input-placeholder {
+	font-weight: 600;
+}
+
+.search-countries::placeholder {
+	font-weight: 600;
+}
