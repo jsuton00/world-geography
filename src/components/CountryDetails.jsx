@@ -1,6 +1,4 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import * as actions from '../store/actions/index';
+import React from 'react';
 import { formatPopulation, mapListtoString } from '../utils/formatText';
 
 export default function CountryDetails(props) {
@@ -19,19 +17,6 @@ export default function CountryDetails(props) {
 		borders,
 	} = props;
 
-	const dispatch = useDispatch();
-	const countryCodes = useSelector((state) => state.countryCodes);
-
-	useEffect(() => {
-		const timer = setTimeout(() => {
-			if (borders.length > 0) {
-				dispatch(actions.selectCountries(borders));
-			}
-		});
-		return () => {
-			clearTimeout(timer);
-		};
-	}, [borders, dispatch]);
 	return (
 		<div id={id} className="country-details-row row">
 			<div className="country-details-col flag-section">
